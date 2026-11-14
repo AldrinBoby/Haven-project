@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://dodkrj4bk7x87"]
+
+[ext_resource type="Texture2D" uid="uid://6g6nu1egtc6u" path="res://assets/pictures/wallhaven-1kxp9g_1920x1080.png" id="1_6d6rd"]
+[ext_resource type="FontFile" uid="uid://mfw4ytndf2wk" path="res://assets/fonts/TAKE A SHOT PERSONAL USE.ttf" id="2_tt55a"]
+[ext_resource type="FontFile" uid="uid://r8i1seqminlj" path="res://assets/fonts/Science Existed Demo.ttf" id="3_t7v6v"]
+[ext_resource type="FontFile" uid="uid://bvbajekswbyal" path="res://assets/fonts/Rabid Science.ttf" id="4_t7v6v"]
+
+[sub_resource type="Theme" id="Theme_u6hc8"]
+default_font = ExtResource("2_tt55a")
+
+[sub_resource type="Theme" id="Theme_jxgcu"]
+default_font = ExtResource("3_t7v6v")
+
+[node name="titlescreen" type="Control" unique_id=934268795]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="background" type="TextureRect" parent="." unique_id=1522912845]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_6d6rd")
+expand_mode = 1
+
+[node name="Control" type="Control" parent="." unique_id=115454570]
+anchors_preset = 0
+offset_left = 83.0
+offset_top = 63.0
+offset_right = 123.0
+offset_bottom = 103.0
+
+[node name="BULLET" type="RichTextLabel" parent="Control" unique_id=2092411416]
+layout_mode = 0
+offset_left = 49.0
+offset_top = 53.0
+offset_right = 593.0
+offset_bottom = 198.0
+theme = SubResource("Theme_u6hc8")
+theme_override_colors/default_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 160
+text = "BULLET"
+scroll_active = false
+
+[node name="THEORY" type="RichTextLabel" parent="Control" unique_id=186514783]
+layout_mode = 0
+offset_left = 287.0
+offset_top = 82.0
+offset_right = 1010.0
+offset_bottom = 242.0
+theme = SubResource("Theme_jxgcu")
+theme_override_font_sizes/normal_font_size = 100
+text = "Theory"
+scroll_active = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1788580327]
+layout_mode = 0
+offset_left = 343.0
+offset_top = 307.0
+offset_right = 815.0
+offset_bottom = 462.0
+
+[node name="Button" type="Button" parent="VBoxContainer" unique_id=311283167]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8745098, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_t7v6v")
+theme_override_font_sizes/font_size = 36
+text = "start"
+
+[node name="Button2" type="Button" parent="VBoxContainer" unique_id=1336395954]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8745098, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_t7v6v")
+theme_override_font_sizes/font_size = 36
+text = "settings"
+
+[node name="Button3" type="Button" parent="VBoxContainer" unique_id=1983873608]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("4_t7v6v")
+theme_override_font_sizes/font_size = 36
+text = "exit"
