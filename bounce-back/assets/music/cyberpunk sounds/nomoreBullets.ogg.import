@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://xcry7v76vfxs"
+path="res://.godot/imported/nomoreBullets.ogg-6c30dc12016eaf05864f9ce009a3dff1.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/cyberpunk sounds/nomoreBullets.ogg"
+dest_files=["res://.godot/imported/nomoreBullets.ogg-6c30dc12016eaf05864f9ce009a3dff1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

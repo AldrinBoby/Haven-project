@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dhse215486r87"
+path="res://.godot/imported/filature.ogg-b50173ff2167daf3985eed0d70ba7db7.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/cyberpunk sounds/filature.ogg"
+dest_files=["res://.godot/imported/filature.ogg-b50173ff2167daf3985eed0d70ba7db7.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

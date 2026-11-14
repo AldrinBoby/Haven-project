@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://75iap4eyfoxc"
+path="res://.godot/imported/taxi.ogg-88b2d2c9b38c9b5d3fef7113a619850a.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/cyberpunk sounds/taxi.ogg"
+dest_files=["res://.godot/imported/taxi.ogg-88b2d2c9b38c9b5d3fef7113a619850a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

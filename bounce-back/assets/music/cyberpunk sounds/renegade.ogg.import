@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bgq18vshj65ml"
+path="res://.godot/imported/renegade.ogg-841015324d8eee70c5cf8762c86adfbb.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/cyberpunk sounds/renegade.ogg"
+dest_files=["res://.godot/imported/renegade.ogg-841015324d8eee70c5cf8762c86adfbb.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

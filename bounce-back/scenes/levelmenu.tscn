@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://0jwiwe68fkib"]
+
+[ext_resource type="Shader" uid="uid://cv77n0nepuyil" path="res://scenes/levelmenu.gdshader" id="1_5fcky"]
+[ext_resource type="Texture2D" uid="uid://bimkxdpd3sjfi" path="res://assets/pictures/levelbg.webp" id="1_5tdid"]
+[ext_resource type="Texture2D" uid="uid://byox5l5sjvly7" path="res://assets/pictures/UI_Flat_Button02a_3.png" id="2_lajna"]
+[ext_resource type="Texture2D" uid="uid://ckrp7fix4xkk5" path="res://assets/button assets/Red Digital Numbers.png" id="3_lajna"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lajna"]
+shader = ExtResource("1_5fcky")
+shader_parameter/blur_amount = 1.5
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lajna"]
+atlas = ExtResource("3_lajna")
+region = Rect2(32, 0, 16, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5fcky"]
+atlas = ExtResource("3_lajna")
+region = Rect2(0, 0, 16, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u6hc8"]
+atlas = ExtResource("3_lajna")
+region = Rect2(48, 0, 16, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ooxb"]
+atlas = ExtResource("3_lajna")
+region = Rect2(0, 0, 16, 24)
+
+[node name="level" type="Control" unique_id=2002604163]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=92869349]
+material = SubResource("ShaderMaterial_lajna")
+layout_mode = 0
+offset_left = -26.0
+offset_top = -75.0
+offset_right = 1178.0
+offset_bottom = 723.0
+texture = ExtResource("1_5tdid")
+
+[node name="Node" type="Node2D" parent="TextureRect" unique_id=945221975]
+position = Vector2(22, 96)
+
+[node name="Sprite2D" type="Sprite2D" parent="TextureRect/Node" unique_id=1293042699]
+texture_filter = 1
+position = Vector2(129, 141.00002)
+scale = Vector2(5.3125, 5.6874995)
+texture = ExtResource("2_lajna")
+
+[node name="TextureButton" type="TextureButton" parent="TextureRect/Node" unique_id=541617596]
+offset_left = 51.0
+offset_top = 45.0
+offset_right = 83.6
+offset_bottom = 79.6
+scale = Vector2(5, 5)
+texture_normal = SubResource("AtlasTexture_lajna")
+texture_pressed = SubResource("AtlasTexture_5fcky")
+stretch_mode = 3
+
+[node name="Node2" type="Node2D" parent="TextureRect" unique_id=339025997]
+position = Vector2(259, 96)
+
+[node name="Sprite2D" type="Sprite2D" parent="TextureRect/Node2" unique_id=1915277702]
+texture_filter = 1
+position = Vector2(129, 141.00002)
+scale = Vector2(5.3125, 5.6874995)
+texture = ExtResource("2_lajna")
+
+[node name="TextureButton" type="TextureButton" parent="TextureRect/Node2" unique_id=1678059577]
+offset_left = 53.0
+offset_top = 51.0
+offset_right = 84.0
+offset_bottom = 83.0
+scale = Vector2(5, 5)
+texture_normal = SubResource("AtlasTexture_u6hc8")
+texture_pressed = SubResource("AtlasTexture_3ooxb")
+stretch_mode = 3

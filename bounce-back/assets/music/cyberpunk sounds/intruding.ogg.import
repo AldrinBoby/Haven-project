@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bkdxuagwmdcvw"
+path="res://.godot/imported/intruding.ogg-af6aaca7124ea6b9a762aa2dbb86bbbd.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/cyberpunk sounds/intruding.ogg"
+dest_files=["res://.godot/imported/intruding.ogg-af6aaca7124ea6b9a762aa2dbb86bbbd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

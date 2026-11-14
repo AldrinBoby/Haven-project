@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d0vi0oiqjkjdf"
+path="res://.godot/imported/spaceWhales.ogg-2694fa1a8768e69687d8dee436a1b169.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/cyberpunk sounds/spaceWhales.ogg"
+dest_files=["res://.godot/imported/spaceWhales.ogg-2694fa1a8768e69687d8dee436a1b169.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

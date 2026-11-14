@@ -4,6 +4,7 @@
 [ext_resource type="FontFile" uid="uid://mfw4ytndf2wk" path="res://assets/fonts/TAKE A SHOT PERSONAL USE.ttf" id="2_tt55a"]
 [ext_resource type="FontFile" uid="uid://r8i1seqminlj" path="res://assets/fonts/Science Existed Demo.ttf" id="3_t7v6v"]
 [ext_resource type="FontFile" uid="uid://bvbajekswbyal" path="res://assets/fonts/Rabid Science.ttf" id="4_t7v6v"]
+[ext_resource type="AudioStream" uid="uid://cp1yssxvcxaa3" path="res://assets/music/cyberpunk sounds/battleUx.ogg" id="5_vhbaf"]
 
 [sub_resource type="Theme" id="Theme_u6hc8"]
 default_font = ExtResource("2_tt55a")
@@ -79,3 +80,7 @@ theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("4_t7v6v")
 theme_override_font_sizes/font_size = 36
 text = "exit"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=958891639]
+stream = ExtResource("5_vhbaf")
+autoplay = true

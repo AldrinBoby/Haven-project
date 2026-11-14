@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bcwti71gnw14p"
+path="res://.godot/imported/alienruins.ogg-77a7f9884ca7c35b311f0c25d2330878.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/cyberpunk sounds/alienruins.ogg"
+dest_files=["res://.godot/imported/alienruins.ogg-77a7f9884ca7c35b311f0c25d2330878.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://btju716yxyew2"
+path="res://.godot/imported/button_fx_high_002_cc0_avr.wav-dcd2ee6f46a9af362473bbe99fa7893c.sample"
+
+[deps]
+
+source_file="res://assets/button assets/button/high/button_fx_high_002_cc0_avr.wav"
+dest_files=["res://.godot/imported/button_fx_high_002_cc0_avr.wav-dcd2ee6f46a9af362473bbe99fa7893c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

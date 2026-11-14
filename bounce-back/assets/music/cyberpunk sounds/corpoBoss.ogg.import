@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dmoffw8bdi7sm"
+path="res://.godot/imported/corpoBoss.ogg-19beb101854bdaa4b8f4287e3e99306f.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/cyberpunk sounds/corpoBoss.ogg"
+dest_files=["res://.godot/imported/corpoBoss.ogg-19beb101854bdaa4b8f4287e3e99306f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
