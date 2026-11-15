@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dge7wswinnl1u"]
+
+[ext_resource type="Texture2D" uid="uid://cumqvyju2ukon" path="res://assets/pictures/scifi platformer/images (2).jpeg" id="1_5p55f"]
+[ext_resource type="AudioStream" uid="uid://cw8lq6y4ygudx" path="res://assets/music/cyberpunk sounds/humanFarm.ogg" id="2_r67kn"]
+
+[node name="Control" type="Control" unique_id=2145667181]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextE" type="TextureRect" parent="." unique_id=263707999]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 649.0
+texture = ExtResource("1_5p55f")
+expand_mode = 1
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=950660857]
+stream = ExtResource("2_r67kn")
+autoplay = true

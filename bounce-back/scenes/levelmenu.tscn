@@ -1,13 +1,10 @@
 [gd_scene format=3 uid="uid://0jwiwe68fkib"]
 
-[ext_resource type="Shader" uid="uid://cv77n0nepuyil" path="res://scenes/levelmenu.gdshader" id="1_5fcky"]
+[ext_resource type="Script" uid="uid://bpe6xtlipi6p" path="res://scenes/levelmenu.gd" id="1_5fcky"]
 [ext_resource type="Texture2D" uid="uid://bimkxdpd3sjfi" path="res://assets/pictures/levelbg.webp" id="1_5tdid"]
 [ext_resource type="Texture2D" uid="uid://byox5l5sjvly7" path="res://assets/pictures/UI_Flat_Button02a_3.png" id="2_lajna"]
 [ext_resource type="Texture2D" uid="uid://ckrp7fix4xkk5" path="res://assets/button assets/Red Digital Numbers.png" id="3_lajna"]
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_lajna"]
-shader = ExtResource("1_5fcky")
-shader_parameter/blur_amount = 1.5
+[ext_resource type="AudioStream" uid="uid://dmoffw8bdi7sm" path="res://assets/music/cyberpunk sounds/corpoBoss.ogg" id="5_g70gg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lajna"]
 atlas = ExtResource("3_lajna")
@@ -32,9 +29,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_5fcky")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=92869349]
-material = SubResource("ShaderMaterial_lajna")
 layout_mode = 0
 offset_left = -26.0
 offset_top = -75.0
@@ -70,7 +67,7 @@ position = Vector2(129, 141.00002)
 scale = Vector2(5.3125, 5.6874995)
 texture = ExtResource("2_lajna")
 
-[node name="TextureButton" type="TextureButton" parent="TextureRect/Node2" unique_id=1678059577]
+[node name="TextureButton2" type="TextureButton" parent="TextureRect/Node2" unique_id=1678059577]
 offset_left = 53.0
 offset_top = 51.0
 offset_right = 84.0
@@ -79,3 +76,10 @@ scale = Vector2(5, 5)
 texture_normal = SubResource("AtlasTexture_u6hc8")
 texture_pressed = SubResource("AtlasTexture_3ooxb")
 stretch_mode = 3
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1123022241]
+stream = ExtResource("5_g70gg")
+autoplay = true
+
+[connection signal="pressed" from="TextureRect/Node/TextureButton" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="TextureRect/Node2/TextureButton2" to="." method="_on_texture_button_2_pressed"]
