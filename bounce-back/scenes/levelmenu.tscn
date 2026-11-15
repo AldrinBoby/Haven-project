@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bimkxdpd3sjfi" path="res://assets/pictures/levelbg.webp" id="1_5tdid"]
 [ext_resource type="Texture2D" uid="uid://byox5l5sjvly7" path="res://assets/pictures/UI_Flat_Button02a_3.png" id="2_lajna"]
 [ext_resource type="Texture2D" uid="uid://ckrp7fix4xkk5" path="res://assets/button assets/Red Digital Numbers.png" id="3_lajna"]
-[ext_resource type="AudioStream" uid="uid://dmoffw8bdi7sm" path="res://assets/music/cyberpunk sounds/corpoBoss.ogg" id="5_g70gg"]
+[ext_resource type="AudioStream" uid="uid://d0vi0oiqjkjdf" path="res://assets/music/cyberpunk sounds/spaceWhales.ogg" id="5_g70gg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lajna"]
 atlas = ExtResource("3_lajna")
