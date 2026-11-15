@@ -7,6 +7,7 @@ const JUMP_VELOCITY = -200.0
 
 
 func _physics_process(delta: float) -> void:
+	
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -36,5 +37,7 @@ func _physics_process(delta: float) -> void:
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
+func teleport_to_position(target_position: Vector2, normal: Vector2) -> void:
+	global_position = target_position + normal * 30 
 
 	move_and_slide()

@@ -21,7 +21,9 @@ func _process(delta: float) -> void:
 
 		bullet_instance.global_position = muzzle.global_position
 		bullet_instance.global_rotation = global_rotation
+		bullet_instance.teleport_requested.connect($"../".teleport_to_position)
 		get_tree().root.add_child(bullet_instance)
+		
 	if rotation_degrees > -90 and rotation_degrees < 90:
 		animated_sprite.flip_h = 0 
 	if rotation_degrees < -90 and rotation_degrees < 90:
