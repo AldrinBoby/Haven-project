@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://coceluchvw4pc"
-path="res://.godot/imported/4ccae67c32484bc5c6901db904828304.jpg-61015278b6ecb7804cf1ec84c8a0af8d.ctex"
+uid="uid://csl3jcw1d12kw"
+path="res://.godot/imported/Mech5-spritesheet.png-13332a2373aad8b678aafc6cf184ce20.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://4ccae67c32484bc5c6901db904828304.jpg"
-dest_files=["res://.godot/imported/4ccae67c32484bc5c6901db904828304.jpg-61015278b6ecb7804cf1ec84c8a0af8d.ctex"]
+source_file="res://assets/pictures/Mech5-spritesheet.png"
+dest_files=["res://.godot/imported/Mech5-spritesheet.png-13332a2373aad8b678aafc6cf184ce20.ctex"]
 
 [params]
 

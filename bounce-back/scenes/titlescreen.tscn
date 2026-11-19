@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dodkrj4bk7x87"]
 
 [ext_resource type="Texture2D" uid="uid://6g6nu1egtc6u" path="res://assets/pictures/wallhaven-1kxp9g_1920x1080.png" id="1_6d6rd"]
-[ext_resource type="Script" uid="uid://dm4odb732cqkj" path="res://scenes/titlescreen.gd" id="1_v6ms7"]
+[ext_resource type="Script" uid="uid://dm4odb732cqkj" path="res://scripts/titlescreen.gd" id="1_v6ms7"]
 [ext_resource type="FontFile" uid="uid://mfw4ytndf2wk" path="res://assets/fonts/TAKE A SHOT PERSONAL USE.ttf" id="2_tt55a"]
 [ext_resource type="FontFile" uid="uid://r8i1seqminlj" path="res://assets/fonts/Science Existed Demo.ttf" id="3_t7v6v"]
 [ext_resource type="FontFile" uid="uid://bvbajekswbyal" path="res://assets/fonts/Rabid Science.ttf" id="4_t7v6v"]

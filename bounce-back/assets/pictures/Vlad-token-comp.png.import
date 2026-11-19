@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://csl3jcw1d12kw"
-path="res://.godot/imported/Mech5-spritesheet.png-480c638734e38bb72727d767f23686af.ctex"
+uid="uid://7fl1u4d4h4g"
+path="res://.godot/imported/Vlad-token-comp.png-cd47a6c53e27fb5df8b6f951aa78f4db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Mech5-spritesheet.png"
-dest_files=["res://.godot/imported/Mech5-spritesheet.png-480c638734e38bb72727d767f23686af.ctex"]
+source_file="res://assets/pictures/Vlad-token-comp.png"
+dest_files=["res://.godot/imported/Vlad-token-comp.png-cd47a6c53e27fb5df8b6f951aa78f4db.ctex"]
 
 [params]
 

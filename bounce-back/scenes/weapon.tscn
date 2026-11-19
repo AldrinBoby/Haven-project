@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://bga4gikk03gth"]
 
-[ext_resource type="Script" uid="uid://55ykuo6rugta" path="res://scenes/gun.gd" id="1_uxn4k"]
+[ext_resource type="Script" uid="uid://55ykuo6rugta" path="res://scripts/gun.gd" id="1_uxn4k"]
 [ext_resource type="Texture2D" uid="uid://boi3bqmx13k3" path="res://assets/pictures/weapons.png" id="1_xasec"]
+[ext_resource type="AudioStream" uid="uid://ctyxp2ntfklpt" path="res://assets/music/Boom7.wav" id="3_bmw2d"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u6hc8"]
 atlas = ExtResource("1_xasec")
@@ -17,3 +18,6 @@ texture = SubResource("AtlasTexture_u6hc8")
 
 [node name="Marker2D" type="Marker2D" parent="." unique_id=1446004981]
 position = Vector2(12, -2)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=482044371]
+stream = ExtResource("3_bmw2d")
