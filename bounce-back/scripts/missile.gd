@@ -5,7 +5,7 @@ extends CharacterBody2D
 @onready var explosion: AnimatedSprite2D = $explosion
 @onready var boom: AudioStreamPlayer2D = $AudioStreamPlayer2D
 
-@export var fall_speed: float = 400.0
+@export var fall_speed: float = 3000.0
 
 var exploding: bool = false
 

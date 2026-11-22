@@ -100,6 +100,9 @@ animations = [{
 "speed": 9.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_uvdhw"]
+radius = 39.051247
+
 [node name="missile" type="CharacterBody2D" unique_id=1154792305]
 script = ExtResource("1_35udt")
 
@@ -122,3 +125,9 @@ frame_progress = 1.0
 stream = ExtResource("4_2swxv")
 volume_db = 5.735
 pitch_scale = 0.77
+
+[node name="damagearea" type="Area2D" parent="." unique_id=588365548]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="damagearea" unique_id=1106294561]
+shape = SubResource("CircleShape2D_uvdhw")
+debug_color = Color(1, 0.5928044, 0.6962553, 0.41960785)

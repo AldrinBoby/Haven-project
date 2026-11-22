@@ -1,13 +1,18 @@
 extends CharacterBody2D
 
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
+@onready var mass: Node2D = $"../mass"
 
 const SPEED = 200.0
 const JUMP_VELOCITY = -200.0
 
 
+
 func _physics_process(delta: float) -> void:
-	
+	if Input.is_action_just_pressed("e"):
+
+		var instance = preload("res://scenes/mass.tscn").instantiate()
+		get_parent().add_child(instance)
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta

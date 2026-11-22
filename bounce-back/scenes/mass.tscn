@@ -1,0 +1,265 @@
+[gd_scene format=3 uid="uid://c8g6b5lppbqey"]
+
+[ext_resource type="PackedScene" uid="uid://bwnj8ggda3s3x" path="res://scenes/missile.tscn" id="1_csiq8"]
+
+[node name="mass" type="Node2D" unique_id=247960177]
+
+[node name="Node2D5" type="Node2D" parent="." unique_id=2109666830]
+position = Vector2(-113, -1174)
+
+[node name="Node2D3" type="Node2D" parent="Node2D5" unique_id=1680403795]
+position = Vector2(-94, 267)
+
+[node name="missile6" parent="Node2D5/Node2D3" unique_id=1154792305 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D5/Node2D3" unique_id=2104877054 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D5/Node2D3" unique_id=24433781 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D5/Node2D3" unique_id=669751136 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D5/Node2D3" unique_id=1974872918 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D5/Node2D3" unique_id=1809363331 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
+
+[node name="Node2D" type="Node2D" parent="Node2D5" unique_id=1855396329]
+
+[node name="missile6" parent="Node2D5/Node2D" unique_id=1314606088 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D5/Node2D" unique_id=77279225 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D5/Node2D" unique_id=10143345 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D5/Node2D" unique_id=151429011 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D5/Node2D" unique_id=688962676 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D5/Node2D" unique_id=317742873 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
+
+[node name="Node2D2" type="Node2D" parent="Node2D5" unique_id=567648119]
+position = Vector2(267, 154)
+
+[node name="missile6" parent="Node2D5/Node2D2" unique_id=1616594197 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D5/Node2D2" unique_id=762178936 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D5/Node2D2" unique_id=73464399 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D5/Node2D2" unique_id=1533395359 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D5/Node2D2" unique_id=1686658276 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D5/Node2D2" unique_id=942082563 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
+
+[node name="Node2D7" type="Node2D" parent="." unique_id=1551547638]
+position = Vector2(-490, -3257)
+
+[node name="Node2D3" type="Node2D" parent="Node2D7" unique_id=1630404982]
+position = Vector2(-94, 267)
+
+[node name="missile6" parent="Node2D7/Node2D3" unique_id=937653697 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D7/Node2D3" unique_id=2114256719 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D7/Node2D3" unique_id=2038360297 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D7/Node2D3" unique_id=1001862567 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D7/Node2D3" unique_id=1214941147 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D7/Node2D3" unique_id=91565041 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
+
+[node name="Node2D" type="Node2D" parent="Node2D7" unique_id=1995666113]
+
+[node name="missile6" parent="Node2D7/Node2D" unique_id=778583000 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D7/Node2D" unique_id=748399725 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D7/Node2D" unique_id=257793113 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D7/Node2D" unique_id=991574071 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D7/Node2D" unique_id=753409996 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D7/Node2D" unique_id=39806412 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
+
+[node name="Node2D2" type="Node2D" parent="Node2D7" unique_id=1443208451]
+position = Vector2(267, 154)
+
+[node name="missile6" parent="Node2D7/Node2D2" unique_id=205428934 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D7/Node2D2" unique_id=2113070314 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D7/Node2D2" unique_id=711174306 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D7/Node2D2" unique_id=162810843 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D7/Node2D2" unique_id=713345 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D7/Node2D2" unique_id=868017464 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
+
+[node name="Node2D6" type="Node2D" parent="." unique_id=1633619587]
+position = Vector2(51, -5544)
+
+[node name="Node2D3" type="Node2D" parent="Node2D6" unique_id=1400068320]
+position = Vector2(-94, 267)
+
+[node name="missile6" parent="Node2D6/Node2D3" unique_id=1364616614 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D6/Node2D3" unique_id=1760303461 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D6/Node2D3" unique_id=1331928873 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D6/Node2D3" unique_id=1562821174 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D6/Node2D3" unique_id=599924659 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D6/Node2D3" unique_id=243614486 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
+
+[node name="Node2D" type="Node2D" parent="Node2D6" unique_id=1818704067]
+
+[node name="missile6" parent="Node2D6/Node2D" unique_id=1916896713 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D6/Node2D" unique_id=1721922768 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D6/Node2D" unique_id=1906044984 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D6/Node2D" unique_id=656475551 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D6/Node2D" unique_id=1026962804 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D6/Node2D" unique_id=962415115 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
+
+[node name="Node2D2" type="Node2D" parent="Node2D6" unique_id=3254691]
+position = Vector2(267, 154)
+
+[node name="missile6" parent="Node2D6/Node2D2" unique_id=559729593 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D6/Node2D2" unique_id=1333263075 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D6/Node2D2" unique_id=1680228438 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D6/Node2D2" unique_id=251754958 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D6/Node2D2" unique_id=570887517 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D6/Node2D2" unique_id=57588737 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
+
+[node name="Node2D4" type="Node2D" parent="." unique_id=1759426747]
+position = Vector2(-253, -150)
+
+[node name="Node2D3" type="Node2D" parent="Node2D4" unique_id=1773937510]
+position = Vector2(-94, 267)
+
+[node name="missile6" parent="Node2D4/Node2D3" unique_id=195721196 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D4/Node2D3" unique_id=1808313015 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D4/Node2D3" unique_id=2007777980 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D4/Node2D3" unique_id=2006300937 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D4/Node2D3" unique_id=1753084184 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D4/Node2D3" unique_id=412999880 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
+
+[node name="Node2D" type="Node2D" parent="Node2D4" unique_id=555048128]
+
+[node name="missile6" parent="Node2D4/Node2D" unique_id=290650338 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D4/Node2D" unique_id=752946549 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D4/Node2D" unique_id=853867825 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D4/Node2D" unique_id=1889009305 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D4/Node2D" unique_id=1258473918 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D4/Node2D" unique_id=1331703283 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
+
+[node name="Node2D2" type="Node2D" parent="Node2D4" unique_id=1056676243]
+position = Vector2(267, 154)
+
+[node name="missile6" parent="Node2D4/Node2D2" unique_id=1584123734 instance=ExtResource("1_csiq8")]
+position = Vector2(1228, 268)
+
+[node name="missile5" parent="Node2D4/Node2D2" unique_id=2025304414 instance=ExtResource("1_csiq8")]
+position = Vector2(1117, 101)
+
+[node name="missile4" parent="Node2D4/Node2D2" unique_id=1862714536 instance=ExtResource("1_csiq8")]
+position = Vector2(1199, 175)
+
+[node name="missile3" parent="Node2D4/Node2D2" unique_id=1466822705 instance=ExtResource("1_csiq8")]
+position = Vector2(1136, 333)
+
+[node name="missile2" parent="Node2D4/Node2D2" unique_id=2081165602 instance=ExtResource("1_csiq8")]
+position = Vector2(1013, 233)
+
+[node name="missile" parent="Node2D4/Node2D2" unique_id=2042117256 instance=ExtResource("1_csiq8")]
+position = Vector2(955, 325)
